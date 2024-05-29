@@ -37,4 +37,8 @@ def envio():
     else:
          print("estan mal los parametros")  
 
-envio()                   
+                 
+contador = 0
+while contador <= 12:
+     print(contador)
+     contador += 1
