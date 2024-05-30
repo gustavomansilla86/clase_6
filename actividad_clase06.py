@@ -13,32 +13,35 @@
 # lista=(lista_comas.split())
 # print(lista)
 
-def envio():
-    peso=int(input("ingrese el peso de paquete a enviar en hasta 26 kg: "))
-    destino=str(input("ingrese destino al que desea enviar santa cruz/ chubut/ rio negro: "))
-    if peso <= 26 and peso >= 11 and destino.lower() =="santa cruz":
-         print("el costo de envio es de $400")
-    elif peso <= 25 and peso >= 16 and destino.lower()=="chubut":
-         print("el costo de envio es de $420")
-    elif peso <= 26 and peso >= 19 and destino.lower()=="rio negro":
-         print("el costo de envio es de $510")
-    elif peso <= 10 and peso >= 6 and destino.lower() =="santa cruz":
-         print("el costo de envio es de $300")
-    elif peso >= 5 and destino.lower() =="santa cruz":
-         print("el costo de envio es de $200")
-    elif peso <= 15 and peso >= 11 and destino.lower()=="chubut":
-         print("el costo de envio es de $390")
-    elif peso >= 10 and destino.lower()=="chubut":
-         print("el costo de envio es de $350")
-    elif peso <= 18 and peso >= 13 and destino.lower()=="rio negro":
-         print("el costo de envio es de $480")
-    elif peso >= 12 and destino.lower()=="rio negro":
-         print("el costo de envio es de $400")
-    else:
-         print("estan mal los parametros")  
+# def envio():
+#     peso=int(input("ingrese el peso de paquete a enviar en hasta 26 kg: "))
+#     destino=str(input("ingrese destino al que desea enviar santa cruz/ chubut/ rio negro: "))
+#     if peso <= 26 and peso >= 11 and destino.lower() =="santa cruz":
+#          print("el costo de envio es de $400")
+#     elif peso <= 25 and peso >= 16 and destino.lower()=="chubut":
+#          print("el costo de envio es de $420")
+#     elif peso <= 26 and peso >= 19 and destino.lower()=="rio negro":
+#          print("el costo de envio es de $510")
+#     elif peso <= 10 and peso >= 6 and destino.lower() =="santa cruz":
+#          print("el costo de envio es de $300")
+#     elif peso >= 5 and destino.lower() =="santa cruz":
+#          print("el costo de envio es de $200")
+#     elif peso <= 15 and peso >= 11 and destino.lower()=="chubut":
+#          print("el costo de envio es de $390")
+#     elif peso >= 10 and destino.lower()=="chubut":
+#          print("el costo de envio es de $350")
+#     elif peso <= 18 and peso >= 13 and destino.lower()=="rio negro":
+#          print("el costo de envio es de $480")
+#     elif peso >= 12 and destino.lower()=="rio negro":
+#          print("el costo de envio es de $400")
+#     else:
+#          print("estan mal los parametros")  
 
                  
-contador = 0
-while contador <= 12:
-     print(contador)
-     contador += 1
+# contador = 0
+# while contador <= 12:
+#      print(contador) 
+#      contador += 1
+#      if contador ==10:
+#       print("estamos en el 10") 
+#       continue
